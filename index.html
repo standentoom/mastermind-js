@@ -11,6 +11,7 @@
     <script src='js/spectrum.js'></script>
     <link rel='stylesheet' href='css/spectrum.css' />
 
+    <!-- game code -->
     <script src='js/mastermind.js'></script>
 </head>
 <body>
@@ -40,13 +41,27 @@
         <td> <div id="r.2" class="results"></div> </td>
     </tr>
 
+    <tr>
+        <td> <input type='text' class="showPaletteOnly"/> </td>
+        <td> <input type='text' class="showPaletteOnly"/> </td>
+        <td> <input type='text' class="showPaletteOnly"/> </td>
+        <td> <input type='text' class="showPaletteOnly"/> </td>
+        <td> <div id="r.2" class="results"></div> </td>
+    </tr>
+
 </table>
 
-<input type='text' id="showPaletteOnly"/>
+
+
+
+
+
+
+
 
 <script type="text/javascript">
 
-    $("#showPaletteOnly").spectrum({
+    $(".showPaletteOnly").spectrum({
         color: "white",
         showPaletteOnly: true,
         showPalette:true,
